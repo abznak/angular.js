@@ -110,8 +110,9 @@ Check the version of Node.js that you have installed by running the following co
 node --version
 ```
 
-In Debian based distributions, there might be a name clash with another utility called `node`. The
-suggested solution is to also install the `nodejs-legacy` apt package, which renames `node` to
+In Debian based distributions the command is `nodejs` instead of `node` (because of a potential conflict with a 
+different utility, also called `node`). The
+suggested solution is to also install the `nodejs-legacy` apt package, which lets you type `node` to run
 `nodejs`.
 
 ```
